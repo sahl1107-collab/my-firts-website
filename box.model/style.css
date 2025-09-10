@@ -1,0 +1,20 @@
+.kotak1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

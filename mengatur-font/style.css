@@ -1,0 +1,41 @@
+*{
+   @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+}
+ font-family {font-family: 'Story Script', cursive;}
+h1{
+    font-family:arial;
+    font-size: 36px;
+    color: blue;
+}
+.besar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: aqua;
+}
+.sedang{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: aquamarine;
+}
+.kecil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: blueviolet;
+}
+.lebih-besar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: brown;
+}
+.lebih-kecil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifw;
+    font-size: xx-small;
+    color: cadetblue;
+
+}
+.font-weight{
+    font-weight: 900;
+}
+.font-style{
+    font-style: oblique;
+}

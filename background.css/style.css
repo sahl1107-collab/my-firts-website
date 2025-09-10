@@ -1,0 +1,11 @@
+body{
+    background-image: url(masjid\ nabawi.jpg);
+    background-size: cover;
+}
+
+
+p{
+    color: red;
+    background-color: burlywood;
+    border: 1px black solid
+}
