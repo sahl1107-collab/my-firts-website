@@ -1,0 +1,33 @@
+/* 
+flexbox
+1. flex-direction = row | row-reverse | column | column-reverse
+2. justify-content = 
+flex-start 
+flex-end
+center 
+space-between
+space-around
+3.align items = 
+center
+flex-start
+flex-end
+strech
+baseline
+normal
+*/
+
+.container {
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.kotak {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font: bold;
+  background-color: red;
+}
