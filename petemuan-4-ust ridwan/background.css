@@ -1,0 +1,26 @@
+div {
+  background-color: #0110ff;
+}
+div h2 {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+div h3 {
+  background: #00a7fc;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 167, 252, 1) 0%,
+    rgba(0, 255, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body {
+  background-image: url(./wkwk.jpg);
+}

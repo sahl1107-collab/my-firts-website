@@ -1,0 +1,22 @@
+body {
+  background-image: url(./Rectangle\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  margin: 80px 0 0 30px;
+  padding-left: 80px;
+}
+button {
+  color: white;
+  background-color: #3a4f39;
+  margin-left: 110px;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+  margin-top: 5px;
+}
+p {
+  padding-left: 110px;
+}
