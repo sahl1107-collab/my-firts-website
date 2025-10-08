@@ -1,0 +1,27 @@
+body {
+  background-color: #f0ecec;
+  width: 1000px;
+}
+.navbar {
+  padding-left: 700px;
+  margin-left: 46px;
+}
+.kotak1 {
+  color: black;
+  font-size: 15px;
+  margin-left: 250px;
+  font-size: xx-large;
+  margin-top: -450px;
+  font: bold;
+}
+.kotak2 {
+  color: black;
+  font-size: 15px;
+  margin-left: 250px;
+}
+.kotak3 {
+  color: black;
+  font-size: 15px;
+  margin-left: 250px;
+}
+

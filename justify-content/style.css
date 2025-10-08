@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-between;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-around;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-evenly;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: flex-end;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: flex-start;
+}
+.container6 {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: center;
+}

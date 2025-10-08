@@ -1,0 +1,33 @@
+.container-1 {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+.container-2 {
+  background-color: salmon;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.isi-container {
+  background-color: aqua;
+  border: radius 10px;
+}
+.paragraf {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+}

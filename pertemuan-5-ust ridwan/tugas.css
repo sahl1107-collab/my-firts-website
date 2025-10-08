@@ -1,0 +1,8 @@
+.senin {
+  display: flex;
+  flex-direction: row;
+  background-color: blueviolet;
+
+  margin-right: 5%;
+  margin-left: 5%;
+}
