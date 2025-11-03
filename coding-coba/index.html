@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tugas Posisi — Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="video-card">
+        <div class="video-top">
+          <h1 class="title">Tugas Posisi</h1>
+          <p class="subtitle">
+            Video demonstrasi — letakkan <code>tugas posisi (1).mp4</code> di
+            folder yang sama
+          </p>
+        </div>
+
+        <div class="video-wrap">
+          <!-- native video element (accessible) -->
+          <video id="mainVideo" class="video" preload="metadata" playsinline>
+            <source src="tugas posisi (1).mp4" type="video/mp4" />
+            Browser kamu tidak mendukung tag video.
+          </video>
+
+          <!-- custom overlay controls -->
+          <div class="controls" id="controls">
+            <button id="playBtn" class="control-btn" aria-label="Play/Pause">
+              Play
+            </button>
+            <input
+              type="range"
+              id="seek"
+              class="seek"
+              value="0"
+              min="0"
+              step="0.01"
+              aria-label="Seek"
+            />
+            <span id="time" class="time">0:00 / 0:00</span>
+            <button id="muteBtn" class="control-btn" aria-label="Mute/Unmute">
+              🔊
+            </button>
+            <button id="fullBtn" class="control-btn" aria-label="Fullscreen">
+              ⤢
+            </button>
+          </div>
+        </div>
+
+        <div class="notes">
+          <h2>Catatan</h2>
+          <ul>
+            <li>Video otomatis menyesuaikan ukuran layar (responsive).</li>
+            <li>
+              Kontrol custom untuk play/pause, seek, mute, dan fullscreen.
+            </li>
+            <li>
+              Ganti nama file video di folder jika berbeda, lalu ubah atribut
+              <code>src</code>.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // Simple custom controls
+      const video = document.getElementById("mainVideo");
+      const playBtn = document.getElementById("playBtn");
+      const seek = document.getElementById("seek");
+      const timeLabel = document.getElementById("time");
+      const muteBtn = document.getElementById("muteBtn");
+      const fullBtn = document.getElementById("fullBtn");
+
+      // format seconds -> mm:ss
+      function formatTime(s) {
+        if (!isFinite(s)) return "0:00";
+        const m = Math.floor(s / 60);
+        const sec = Math.floor(s % 60)
+          .toString()
+          .padStart(2, "0");
+        return `${m}:${sec}`;
+      }
+
+      // when metadata loaded set duration
+      video.addEventListener("loadedmetadata", () => {
+        seek.max = video.duration;
+        timeLabel.textContent = `${formatTime(0)} / ${formatTime(
+          video.duration
+        )}`;
+      });
+
+      // update seek as video plays
+      video.addEventListener("timeupdate", () => {
+        seek.value = video.currentTime;
+        timeLabel.textContent = `${formatTime(
+          video.currentTime
+        )} / ${formatTime(video.duration)}`;
+      });
+
+      // play/pause
+      playBtn.addEventListener("click", () => {
+        if (video.paused) {
+          video.play();
+          playBtn.textContent = "Pause";
+        } else {
+          video.pause();
+          playBtn.textContent = "Play";
+        }
+      });
+
+      // seek change
+      seek.addEventListener("input", () => {
+        video.currentTime = seek.value;
+      });
+
+      // mute/unmute
+      muteBtn.addEventListener("click", () => {
+        video.muted = !video.muted;
+        muteBtn.textContent = video.muted ? "🔈" : "🔊";
+      });
+
+      // double click toggles fullscreen
+      video.addEventListener("dblclick", () => {
+        toggleFull();
+      });
+
+      fullBtn.addEventListener("click", toggleFull);
+
+      function toggleFull() {
+        if (!document.fullscreenElement) {
+          if (video.requestFullscreen) video.requestFullscreen();
+          else if (video.webkitEnterFullscreen) video.webkitEnterFullscreen(); // iOS fallback
+        } else {
+          document.exitFullscreen();
+        }
+      }
+
+      // keyboard shortcuts
+      document.addEventListener("keydown", (e) => {
+        if (e.code === "Space") {
+          e.preventDefault();
+          playBtn.click();
+        } else if (e.code === "KeyM") {
+          muteBtn.click();
+        } else if (e.code === "ArrowRight") {
+          video.currentTime = Math.min(video.duration, video.currentTime + 5);
+        } else if (e.code === "ArrowLeft") {
+          video.currentTime = Math.max(0, video.currentTime - 5);
+        }
+      });
+
+      // show play as Pause when video is playing from other triggers
+      video.addEventListener("play", () => (playBtn.textContent = "Pause"));
+      video.addEventListener("pause", () => (playBtn.textContent = "Play"));
+    </script>
+  </body>
+</html>

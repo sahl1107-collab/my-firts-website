@@ -1,0 +1,27 @@
+.container {
+  background-color: green;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.kolom-1 {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; */
+}
+.kolom-2 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .kotak-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+} */

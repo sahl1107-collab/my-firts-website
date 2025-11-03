@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.logo {
+  color: #fa6e00;
+}
+nav {
+  display: none;
+}
+
+/* STRUKRUR DEKSTOP */
+@media (min-width: 391px) {
+  .icon-bar {
+    display: none;
+  }
+  nav {
+    display: block;
+    background-color: orange;
+  }
+  nav ul {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 450px;
+  }
+}

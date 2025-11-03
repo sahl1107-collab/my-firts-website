@@ -1,0 +1,51 @@
+.hero {
+  background-color: red;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  /* ! tolong atur anak" menjadi baris */
+}
+
+.kolom-1 {
+  background-color: green;
+}
+
+.kolom-2 {
+  background-color: blue;
+}
+
+.tombol {
+  background-color: #d760c7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* yg kedua */
+.hero {
+  background-color: red;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+  /* ! tolong atur anak" menjadi baris */
+}
+
+.kolomcuy1 {
+  background-color: green;
+}
+
+.kolomcuy2 {
+  background-color: blue;
+}
+
+.tombol-1 {
+  background-color: #d760c7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

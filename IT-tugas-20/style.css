@@ -1,0 +1,66 @@
+.container-one {
+  background-color: #f9f8f3;
+  padding: 50px;
+}
+.box-one {
+  color: black;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
+.box-two {
+  color: black;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -100px;
+}
+.isi-one {
+  text-decoration: underline;
+}
+.kantong-one {
+  color: black;
+  font-size: 25px;
+}
+.kantong-two {
+  color: black;
+  font-size: 25px;
+  font-style: italic;
+}
+.kotak-one {
+  color: black;
+  font-size: 25px;
+}
+.kotak-two {
+  color: black;
+  font-size: 25px;
+  font-style: italic;
+}
+.meja-one {
+  color: black;
+  font-size: 25px;
+}
+.meja-two {
+  color: black;
+  font-size: 23px;
+  font-style: italic;
+}
+.kursi-one {
+  color: black;
+  font-size: 25px;
+}
+.kursi-two {
+  color: black;
+  font-size: 23px;
+  font-style: italic;
+}
+.meja-one {
+  color: black;
+  font-size: 25px;
+}
+.meja-two {
+  color: black;
+  font-size: 23px;
+  font-style: italic;
+}

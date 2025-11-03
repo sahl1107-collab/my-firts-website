@@ -1,0 +1,15 @@
+.container {
+  background-color: purple;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kolom-1 {
+  background-color: red;
+}
+
+.kolom-2 {
+  background-color: green;
+}

@@ -1,0 +1,45 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  background-color: chartreuse;
+  position: static;
+}
+hr {
+  margin: 55vh;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(14, 230, 158);
+
+  position: relative;
+  right: 0;
+  bottom: 100px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(192, 121, 13);
+
+  position: absolute;
+  right: 50px;
+}
+
+.card-parent {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(rgb(53, 7, 207), green, blue);
+
+  position: relative;
+}
+
+.box-card {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(yellow, green, blue);
+
+  position: absolute;
+  right: 10px;
+  top: -20px;
+}

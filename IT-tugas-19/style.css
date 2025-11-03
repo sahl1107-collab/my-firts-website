@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  color: grey;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  color: red;
+  font-size: 1px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.tebal {
+  font-weight: bold;
+}
+
+.miring {
+  font-style: italic;
+}
+
+.merah-besar {
+  color: red;
+  font-size: 1px;
+}
+
+.kecil {
+  font-size: 0.8px;
+}
+
+.garis-bawah {
+  text-decoration: underline;
+}
+
+.garis-atas {
+  text-decoration: overline;
+}
+
+.coret {
+  text-decoration: line-through;
+}
+
+.container-rataan {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container-rataan p {
+  flex-basis: 35%;
+  margin: 0;
+}
+
+.rata-tengah {
+  text-align: center;
+}
+
+.rata-kanan {
+  text-align: right;
+}
+
+.huruf-besar {
+  text-transform: uppercase;
+}
+
+.huruf-kecil {
+  text-transform: lowercase;
+}
+
+.kapital-kata {
+  text-transform: capitalize;
+}
+
+.spasi-huruf-lebar {
+  letter-spacing: 5px;
+}
+
+.spasi-kata-lebar {
+  word-spacing: 15px;
+}

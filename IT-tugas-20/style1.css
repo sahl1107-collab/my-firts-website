@@ -1,0 +1,130 @@
+* {
+  font-family: "Cormorant", serif;
+}
+
+.container {
+  background-color: rgb(248, 242, 242);
+  padding-top: 60px;
+  padding-bottom: 70px;
+  line-height: 10px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.design {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.lam {
+  text-decoration: underline;
+}
+
+.font {
+  width: 30%;
+}
+
+.light-one {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.light-two {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -25px;
+}
+
+.regular-one {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.italic {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -25px;
+}
+
+.medium-one {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.medium-metalic {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -25px;
+}
+
+.semibold-one {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.semibold-two {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: -25px;
+}
+
+.bold-one {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bold-two {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: -25px;
+}
+
+.p-h1 {
+  font-weight: 400;
+  font-size: 35px;
+  padding-left: 45px;
+  text-align: left !important;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 300px;
+  margin-right: 200px;
+}
+
+.prg {
+  font-size: 20px;
+}
+
+.parent2 {
+  width: 70%;
+}
+
+.abjad {
+  font-size: 30px;
+  padding-left: 80px;
+  letter-spacing: 23px;
+}
+
+.aa {
+  font-size: 150px;
+  font-weight: 400;
+  padding-left: 240px;
+  background-color: rgb(248, 242, 242);
+  padding-top: 60px;
+  padding-bottom: 50px;
+  line-height: 10px;
+}

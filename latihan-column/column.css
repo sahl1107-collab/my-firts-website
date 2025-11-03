@@ -1,0 +1,30 @@
+.container-1 {
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.container-2 {
+  background-color: red;
+  justify-content: center;
+  align-self: center;
+}
+.container-3 {
+  background-color: aquamarine;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kolom-1 {
+  background-color: red;
+}
+.kolom-2 {
+  background-color: purple;
+}
+@media (min-width: 391px) {
+  .container-3 {
+    background-color: green;
+  }
+}
