@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  background-color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+}
+
+.logo {
+  align-items: center;
+  font-weight: 700;
+  padding: 5px 12px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.isi-one {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  /* flex-direction: column; */
+  /* margin-left: 1px; */
+  gap: 10px;
+}
+
+.text-manrupe {
+  font-family: "Manrope", sans-serif;
+  margin-top: 5px;
+}
+
+.button {
+  margin-top: -80px;
+}
+button {
+  margin-left: 180px;
+  color: black;
+  background-color: rgba(212, 211, 148, 0.941);
+  border-radius: 15px;
+  width: 120px;
+  height: 35px;
+}
+
+.fa-linkedin {
+  color: rgba(212, 211, 148, 0.941);
+}
+
+.fa-github {
+  color: rgba(212, 211, 148, 0.941);
+}
+
+.container {
+  color: white;
+  margin-top: 150px;
+  margin-left: 180px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.meja-one {
+  margin-top: 5px;
+}
+
+.wrap-image img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.wrap-image {
+  width: 250px;
+  /* background-color: red; */
+}
+
+.image-one {
+  display: flex;
+}
+
+.teks {
+  margin-top: 120px;
+}
+
+.teks h3 {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin-left: 550px;
+}
+
+.teks p {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin-left: 550px;
+  margin-top: 15px;
+}

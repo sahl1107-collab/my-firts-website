@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  background-size: cover;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  /* background-color: red; */
+}
+h1 span {
+  color: #ff8f0c;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "Alfa Slab One", serif;
+}
+
+header {
+  width: 100%;
+  background: #ff8f0c;
+  /* padding: 20px 60px; */
+  color: white;
+}
+
+#imagee {
+  background-image: url(bg.png);
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: red; */
+  /* width: 100%; */
+}
+
+.logo {
+  font-weight: bold;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "iceland", sans-serif;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.one-text {
+  max-width: 50%;
+}
+
+.tombol {
+  background: #ff8f0c;
+  border: none;
+  padding: 18px 18px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.hero-img {
+  width: 340px;
+  height: auto;
+}
+
+.two {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.two span {
+  color: #ff8f0c;
+  font-weight: bold;
+}
+
+.logo-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-list img {
+  width: 60px;
+  opacity: 0.9;
+}
